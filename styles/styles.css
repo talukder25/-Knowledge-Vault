@@ -17,8 +17,15 @@
     text-decoration: none;
     color: black;
     text-transform: capitalize;
+}
+
+.header ul li:hover a{
+    color: #30B868;
 
 }
+
+
+
 .navParent{
     display: flex;
     justify-content: space-between;
@@ -32,8 +39,17 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 
 }
+
+.headerButton:hover{
+    background-color: #787c7a;
+    
+}
+
+
+
 .hero{
     background-image: url("../assets/hero-bg.png");
     background-position: center;
@@ -92,12 +108,24 @@
     padding: 10px 15px;
     margin-right: 15px;
     border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.firstbutton:hover{
+    background-color: #5c615e;
 }
 .secbutton{
     background: transparent;
     padding: 10px 15px;
     color: white;
     border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.secbutton:hover{
+    background-color: #b9eb07;
+    color: black;
+    border: none;
 }
 .fistcardheading{
     text-align: center;
@@ -206,7 +234,14 @@
     margin-right: 15px;
     border: none;
     margin-bottom: 15px;
+     cursor: pointer;
+     border-radius: 10px;
 
+}
+
+
+.bonusbutton:hover{
+    background-color: #5c615e;
 }
  footer{
     background-color:#001931;
@@ -237,10 +272,14 @@
     color: black;
     padding: 3px;
     border-radius: 100%;
+    cursor: pointer;
+   
 
 }
 .iconbox {
     margin-top: 13px;
+    display: flex;
+    gap: 10px;
 }
 
 
