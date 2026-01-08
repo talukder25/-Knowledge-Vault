@@ -208,7 +208,39 @@
     margin-bottom: 15px;
 
 }
+ footer{
+    background-color:#001931;
+    color: white;
+    padding: 118px 0px;
+    margin-top: 50px;
+ }
 
+.footerbaba{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
 
+.Socialbox{
+    padding-right: 120px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.iconbox i {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 100%;
+
+}
+.iconbox {
+    margin-top: 13px;
+}
 
 
