@@ -1,0 +1,101 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1360px;
+    margin: auto;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;  
+
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}
+.navParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px ;
+
+}
+.headerButton{
+    background-color: #30B868;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.hero{
+    background-image: url("../assets/hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 130px 0px;
+    text-align: center;
+}
+
+.herocontainer{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.extratext {
+    background-color: white;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 5px ;
+    border-radius: 15px;
+
+}
+
+.point{
+    width: 6px;
+    height: 6px;
+    background-color: #30B868;
+    border-radius: 50%;
+}
+.herocontainer h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom:25px ;
+
+}
+
+.herocontainer h1 p{
+    color: #30B868;
+
+}
+
+.heroinfo{
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.firstbutton{
+    background-color: #30B868;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 15px;
+    border: none;
+}
+.secbutton{
+    background: transparent;
+    padding: 10px 15px;
+    color: white;
+    border: 1px solid white;
+}
